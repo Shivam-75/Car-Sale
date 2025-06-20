@@ -1,0 +1,59 @@
+*{
+    margin: 0;padding:0 ;
+    box-sizing: border-box;
+
+}
+.nav-main{
+    background-color: rgb(237, 237, 237);
+    /* text-shadow: 8px 2px 3px  red,5px 5px 7px blue; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    text-transform: capitalize;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    margin:0 20px;
+    font-size: 18px;
+    outline: none;
+
+
+}
+.nav-main .logos{
+    letter-spacing: 15px;
+    text-transform:uppercase;
+}
+.nav:hover{
+    color: rgb(18, 227, 255);
+    font-size: 20px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    font-weight: 800; transition: 400ms 
+}
+@media (max-width:600px) {
+    .nav-logo{
+        display: none;
+    }
+    .nav-item{
+        margin: auto;
+        font-size: 18px;
+    }
+}
+li .personinfo{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 800;
+}

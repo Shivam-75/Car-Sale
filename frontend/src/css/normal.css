@@ -1,0 +1,33 @@
+section .header-card{
+    /* background-color:  red; */
+    box-shadow: 8px 8px 8px 4px black;
+    height:40vh;
+    width: 55vh;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.header-card img{
+    height: 25vh;
+    transition: 2s;
+}
+.header-card h1{
+    text-transform: capitalize;
+    padding: 3px 10px;
+}
+.header-card p{
+    text-transform: capitalize;
+    padding: 3px 10px;
+    font-size: 13px;
+}
+.imgss{
+    display: flex;
+    justify-content: center;
+}
+.normal-sec{
+    gap: 40px;
+}
+
+.header-card img:hover{
+    transform: rotatey(140deg);
+    
+}

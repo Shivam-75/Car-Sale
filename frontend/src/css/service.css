@@ -1,0 +1,23 @@
+.service-main{
+    height: calc(100vh - 10vh);
+    width: 100%;
+    border: 1px solid black;
+}
+.service-content{
+    /* height:calc(90vh - 30vh) ; */
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.servvice-h1{
+    font-size: 8vmin;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 15vh;
+    padding-bottom: 5vh;
+}
+.servicegt{
+    padding-bottom: 120px;
+}

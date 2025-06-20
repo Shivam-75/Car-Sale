@@ -1,0 +1,27 @@
+.sales-main{
+    /* height: calc(100vh - 10vh); */
+    border: 1px solid black;
+    width: 100%;
+}
+.sales-main h1{
+    text-align: center;
+    font-size: 8vmin;
+    text-transform: capitalize;
+    /* -webkit-text-fill-color:aqua; */
+    margin: 10vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    
+
+}
+.flex-child{
+    /* border: 1px solid red; */
+    padding: 15px;
+    /* margin: 30px 0; */
+
+}

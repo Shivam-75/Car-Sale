@@ -1,0 +1,73 @@
+.register-main {
+    height: calc(100vh - 10vh);
+    border: 1px solid black;
+    display: flex;
+  }
+  .register-card {
+    height: 69vh;
+    /* box-shadow: 10px 10px 20px 8px black; */
+    box-shadow: 10px 10px 15px black;
+    width: 80vmin;
+    margin: auto;
+    border-radius: 8px;
+  }
+  .register-contents {
+    font-size: 6vmin;
+    text-align: center;
+    margin-top: 10px;
+  }
+  input[type="password"] {
+    height: 6vh;
+    width: 40vmin;
+    padding: 10px ;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  input[type="email"] {
+    height: 6vh;
+    width: 40vmin;
+    padding: 10px ;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  input[type="Number" ] {
+    height: 6vh;
+    width: 40vmin;
+    padding: 10px ;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  input[type="text" ] {
+    height: 6vh;
+    width: 40vmin;
+    padding: 10px ;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  .rg-innputs {
+    /* border: 1px solid green; */
+    margin: 7vh 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .register-b{
+      display: flex;
+      /* border: 1px solid red; */
+      height: 10vh;
+      justify-content: center;
+      align-items: center;
+      gap: 10vw;
+  }
+  .rp{
+      font-size: 15px;
+      text-decoration: none;
+      text-transform: capitalize;
+  
+  }
+  

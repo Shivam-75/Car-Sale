@@ -1,0 +1,39 @@
+.error{
+    height: calc(100vh - 10vh);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-box{
+    height: calc(50vh);
+    border: 1px solid black;
+    width: 82.5vmin;
+   
+    box-shadow: 8px 8px 8px 10px black;
+}
+.error-box img{
+    height: 40vh;
+    width: 100%;
+
+}
+.btnn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 8vh;
+}
+.error-btn{
+    background-color: red;
+    height: 5vh;
+    width: 15vh;
+    border-radius: 2vh;
+    color: antiquewhite;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    
+
+}
