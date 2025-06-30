@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState, useRef } from "react";
 import "../css/service.css";
 import { serivce } from "../store/service.js";
@@ -17,16 +17,20 @@ function Service() {
   let [datas, setdatas] = useState(0);
   const text = useRef(null);
 
-  const d = setInterval(() => {
-    if (datas === 6) {
-      datas = 0;
+  useEffect(() => {
+    const d = setInterval(() => {
+      if (datas === 6) {
+        datas = 0;
+      }
+      text.current.innerText = `Service provided ${ss[datas]}`;
+      datas++;
+    }, 1000);
+
+    return () => {
+      clearInterval(d)
     }
-    text.current.innerText = `Service provided ${ss[datas]}`;
-    datas++;
-  }, 1000);
-  setTimeout(() => {
-    clearInterval(d);
-  }, 10000);
+  },[])
+  
   return (
     <>
       <div className="servicegt">
